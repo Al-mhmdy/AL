@@ -1,0 +1,82 @@
+/* start contact */
+.contact {
+  padding-top: 50px;
+}
+form input,
+textarea {
+  background-color: transparent !important;
+  border: 1px solid #aebed7 !important;
+  border-radius: 10px !important;
+}
+.btn-form {
+  width: 100%;
+  padding: 15px;
+  background-color: white;
+  color: black !important;
+  border-radius: 10px !important;
+  font-weight: 600;
+}
+::placeholder {
+  font-weight: 600;
+  font-size: 17px;
+}
+.person {
+  position: relative;
+}
+.tele {
+  position: absolute;
+  right: 90px;
+  width: 200px;
+  top: 50px;
+}
+.done {
+  margin-top: -100px;
+}
+.done img {
+  width: 250px;
+}
+.done button {
+  width: 200px;
+}
+/* end contact */
+/*start responsive */
+@media (min-width: 991px) {
+  .person {
+    position: relative;
+    margin-top: -80px;
+    width: 400px;
+  }
+}
+@media (max-width: 868px) {
+  form {
+    margin: auto !important;
+    width: 95%;
+  }
+}
+@media (max-width: 768px) {
+  .person,
+  .tele {
+    display: none;
+  }
+  .done {
+    margin-top: -50px;
+  }
+  .done h1 {
+    font-size: 20px;
+  }
+  .done img {
+    width: 120px;
+  }
+  .done button {
+    padding: 5px;
+  }
+}
+@media (max-width: 668px) {
+  form {
+    margin-left: 10px;
+    margin: auto !important;
+    width: 80%;
+  }
+}
+
+/*end responsive */

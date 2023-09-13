@@ -1,0 +1,138 @@
+/* start portfolio */
+body {
+  background-color: black;
+}
+.black {
+  background-color: rgba(0, 0, 0, 0.939);
+}
+.backdrop-filter {
+  backdrop-filter: blur(5px);
+}
+.all-portfolio {
+  background: url(../images/Portfolio1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: max-content;
+  min-height: 150vh;
+}
+.landing {
+  height: max-content;
+  min-height: 130vh;
+}
+.icon {
+  height: 100vh;
+}
+.icon a {
+  position: absolute;
+  left: 50%;
+  font-size: 20px;
+  top: 130%;
+  transform: translate(-50%);
+  animation: up-and-down 1.5s ease infinite;
+}
+@keyframes up-and-down {
+  0%,
+  100% {
+    top: 130%;
+  }
+  50% {
+    top: 133%;
+  }
+}
+.image {
+  position: relative;
+  height: max-content;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.group-one {
+  position: absolute;
+  top: 0;
+  right: -5%;
+  width: 500px;
+}
+.group-two {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+}
+.person-info {
+  margin-top: 170px;
+}
+.tools h1 {
+  margin-top: 5px;
+  font-family: "Fugaz One", cursive;
+  font-weight: 400;
+  font-size: 24px;
+}
+.progress {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    #c323a2 0%,
+    #e07524 48.83%,
+    #e22e85 101.25%
+  );
+}
+.progress-in {
+  background-color: white;
+  position: absolute;
+  top: 45%;
+  left: 10px;
+  height: 4px;
+  border-radius: 10px;
+}
+.skills-items {
+  margin: 20px 0;
+}
+/* end portfolio */
+
+/*start responsive */
+@media (max-width: 979px) {
+  .skills-items {
+    margin: 23px 0 !important;
+  }
+  .group-one {
+    right: -10%;
+    width: 400px;
+  }
+  .group-two {
+    width: 350px;
+  }
+}
+@media (max-width: 768px) {
+  .person-info {
+    margin-top: 120px !important;
+  }
+  .group-one {
+    right: -10%;
+    width: 350px;
+  }
+  .group-two {
+    width: 300px;
+  }
+  .skills-items {
+    margin-top: 23px;
+  }
+  .tools {
+    margin-top: 7px;
+  }
+}
+@media (max-width: 568px) {
+  .group-one {
+    width: 320px;
+  }
+  .group-two {
+    width: 270px;
+  }
+  .tools h1 {
+    font-size: 17px;
+  }
+  .skills-items {
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+}
+/*end responsive */
