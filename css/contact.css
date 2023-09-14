@@ -21,13 +21,7 @@ textarea {
   font-size: 17px;
 }
 .person {
-  position: relative;
-}
-.tele {
-  position: absolute;
-  right: 90px;
-  width: 200px;
-  top: 50px;
+  margin: auto;
 }
 .done {
   margin-top: -100px;
@@ -54,8 +48,7 @@ textarea {
   }
 }
 @media (max-width: 768px) {
-  .person,
-  .tele {
+  .person {
     display: none;
   }
   .done {
