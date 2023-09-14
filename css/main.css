@@ -76,7 +76,6 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   height: max-content;
-  min-height: 100vh;
 }
 .main {
   display: none;
@@ -120,6 +119,11 @@ a {
 
 /* end nav */
 /*start responsive */
+@media (min-width: 768px) {
+  .all {
+    min-height: 100vh;
+  }
+}
 @media (max-width: 768px) {
   .main-head h1 {
     padding-top: 30px;
