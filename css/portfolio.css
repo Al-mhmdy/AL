@@ -46,6 +46,9 @@ body {
   min-height: 100vh;
   overflow: hidden;
 }
+.person-info-last {
+  display: none;
+}
 .group-one {
   position: absolute;
   top: 0;
@@ -120,6 +123,14 @@ body {
     margin-top: 7px;
   }
 }
+@media (max-width: 575px) {
+  .person-info {
+    display: none !important;
+  }
+  .person-info-last {
+    display: block !important;
+  }
+}
 @media (max-width: 568px) {
   .group-one {
     width: 320px;
@@ -129,10 +140,6 @@ body {
   }
   .tools h1 {
     font-size: 17px;
-  }
-  .skills-items {
-    padding-top: 10px;
-    margin-top: 20px;
   }
 }
 /*end responsive */
