@@ -134,7 +134,7 @@
 }
 @media (max-width: 576px) {
   .all {
-    height: 185vh;
+    height: 200vh;
   }
   .follow h1 {
     font-size: 45px;
