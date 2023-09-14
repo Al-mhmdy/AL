@@ -133,9 +133,9 @@
   }
 }
 @media (max-width: 576px) {
-  .all {
+  /* .all {
     min-height: 285vh;
-  }
+  } */
   .follow h1 {
     font-size: 45px;
     margin-bottom: 150px;
