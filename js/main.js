@@ -9,18 +9,6 @@ function init() {
 }
 init();
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-// let menuIcon = document.querySelector(".menu-icon");
-// let firstSpan = document.querySelector(".first");
-// let secondSpan = document.querySelector(".second");
-// let thirdSpan = document.querySelector(".third");
-// menuIcon.onclick = function () {
-//   secondSpan.classList.toggle("hide");
-//   firstSpan.classList.toggle("move");
-//   thirdSpan.classList.toggle("move");
-//   firstSpan.classList.toggle("rotatepo");
-//   thirdSpan.classList.toggle("rotatene");
-// };
-// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 let done = document.querySelector(".done");
 let btnClose = document.querySelector(".close");
 let form = document.getElementById("form");
