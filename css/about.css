@@ -118,5 +118,11 @@ body {
   .about .about-img img:last-child {
     width: 75%;
   }
+  .item {
+    height: 270px;
+
+    width: 300px;
+    margin: 0 auto 15px;
+  }
 }
 /*end responsive */
