@@ -69,7 +69,7 @@ textarea {
 }
 @media (max-width: 668px) {
   .all {
-    height: 120vh;
+    height: 80vh;
   }
   form {
     margin-left: 10px;
