@@ -119,9 +119,9 @@
   }
 }
 @media (max-width: 768px) {
-  .all {
+  /* .all {
     min-height: 270vh;
-  }
+  } */
   .box {
     display: none;
   }
