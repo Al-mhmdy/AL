@@ -125,6 +125,7 @@
   .box {
     display: none;
   }
+
   .last {
     transform: translate(-50%);
     width: 250px !important;
@@ -136,8 +137,17 @@
   .all {
     height: 200vh;
   }
+  .follow {
+    width: max-content;
+    margin: auto;
+    background: url(../images/Vector.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 32px;
+    margin-top: 30px;
+  }
   .follow h1 {
-    font-size: 45px;
+    font-size: 30px;
     margin-bottom: 150px;
   }
   .last-box {
